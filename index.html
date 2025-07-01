@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha da Paz e Proteção</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎮 Jogo da Velha da Paz e Proteção 🎮</h1>
+            <p class="subtitle">Aprendendo a Construir um Lar Seguro</p>
+        </header>
+
+        <div class="game-area">
+            <div class="policial-section">
+                <div class="policial-character">
+                    <div class="policial-avatar">👮‍♀️</div>
+                    <div class="policial-message" id="policialMessage">
+                        Olá! Vamos jogar e aprender sobre amor e proteção? 💖
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-section">
+                <div class="game-info">
+                    <div class="player-info">
+                        <div class="player">
+                            <span class="symbol heart">❤️</span>
+                            <span>Você (Coração da Harmonia)</span>
+                        </div>
+                        <div class="player">
+                            <span class="symbol hand">✋</span>
+                            <span>Policial Amiga (Mão da Proteção)</span>
+                        </div>
+                    </div>
+                    
+                    <div class="current-player" id="currentPlayer">
+                        Sua vez! Clique em uma casa para colocar seu ❤️
+                    </div>
+                </div>
+
+                <div class="board" id="board">
+                    <div class="cell" data-index="0"></div>
+                    <div class="cell" data-index="1"></div>
+                    <div class="cell" data-index="2"></div>
+                    <div class="cell" data-index="3"></div>
+                    <div class="cell" data-index="4"></div>
+                    <div class="cell" data-index="5"></div>
+                    <div class="cell" data-index="6"></div>
+                    <div class="cell" data-index="7"></div>
+                    <div class="cell" data-index="8"></div>
+                </div>
+
+                <div class="game-controls">
+                    <button id="resetButton" class="btn-reset">🔄 Jogar Novamente</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="educational-message" id="educationalMessage">
+            <div class="message-content">
+                <h3>💡 Você Sabia?</h3>
+                <p id="messageText">O diálogo é a chave para resolver problemas em família!</p>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <p>🏠 Construindo lares seguros e cheios de amor 🏠</p>
+                <div class="keywords">
+                    <span class="keyword">AMOR</span>
+                    <span class="keyword">RESPEITO</span>
+                    <span class="keyword">PAZ</span>
+                    <span class="keyword">DIÁLOGO</span>
+                    <span class="keyword">APOIO</span>
+                    <span class="keyword">PROTEÇÃO</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
